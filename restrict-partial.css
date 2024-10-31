@@ -1,0 +1,36 @@
+#timer-days, #timer-hours, #timer-minutes, #timer-seconds, #timer-message {
+	display: inline-block;
+	padding: 10px;
+	border-left: 3px solid #CCC;
+	border-right: 3px solid #CCC;
+	border-top: 6px solid #CCC;
+	border-bottom: 6px solid #CCC;
+	background-color: #eee;
+	font-size: 22px;
+	min-width: 150px;
+	text-align: center;
+}
+
+#timer-days, #timer-message {
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-left: 6px solid #CCC;
+}
+
+#timer-seconds, #timer-message {
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-right: 6px solid #CCC;
+}
+
+#timer-message  {
+	display: none;
+}
